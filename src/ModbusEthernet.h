@@ -12,7 +12,7 @@
 #define MODBUSIP_PORT     502 ///< TCP/IP port of MODBUS service
 #define MODBUSIP_MAXFRAME 200 ///< Maximum length of frame
 
-//#define TCP_KEEP_ALIVE
+#define TCP_KEEP_ALIVE
 
 /**
    @class ModbusEthernet
